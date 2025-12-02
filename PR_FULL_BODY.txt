@@ -1,0 +1,10 @@
+chore(docs): DB persistence docs and Alembic guidance
+
+This PR updates documentation and adds migration guidance for the DB-backed storage introduced earlier in PR #17.
+
+- Updates `src/README.md` to reflect the database-backed setup and running steps
+- Adds `ALEMBIC_README.md` with instructions to set up Alembic migrations
+- Adds `CHANGES.md` to record follow-up items
+- Adds `alembic` and `pytest` to `requirements.txt`
+
+This is a small follow-up PR to improve onboarding and development experience.
