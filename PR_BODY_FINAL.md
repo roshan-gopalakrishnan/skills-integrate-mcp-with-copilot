@@ -1,0 +1,4 @@
+This PR updates docs and adds migration guidance for DB-backed storage. It complements PR #17 which added DB models and endpoints.
+
+PR: chore/add-docs-and-migrations
+
