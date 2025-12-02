@@ -1,0 +1,1 @@
+Updating the readme and adding migration instructions for dev & deployment. This PR also suggests next steps for adding Alembic migrations to the repo and configuring the production DB.
