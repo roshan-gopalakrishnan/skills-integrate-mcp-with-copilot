@@ -47,4 +47,21 @@ The application uses a simple data model with meaningful identifiers:
    - Name
    - Grade level
 
-All data is stored in memory, which means data will be reset when the server restarts.
+The application now persists activities, students and signups using SQLite by default (configured in `DATABASE_URL`).
+Database tables are automatically created and seeded on startup in development. In production, configure a proper DB URL (e.g. Postgres) and use Alembic for migrations.
+
+### Running with SQLite (dev)
+
+1. Install dependencies:
+
+   ```
+   pip install -r requirements.txt
+   ```
+
+2. Run the app:
+
+   ```
+   uvicorn app:app --reload --port 8000
+   ```
+
+3. The app will create `dev.db` and seed initial activities on first run.
