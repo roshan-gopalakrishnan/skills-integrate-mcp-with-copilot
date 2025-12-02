@@ -1,0 +1,1 @@
+This PR updates the docs to reflect DB-backed storage and provides steps to set up Alembic migrations and local testing with pytest. It complements PR #17 which added SQLAlchemy persistence.
