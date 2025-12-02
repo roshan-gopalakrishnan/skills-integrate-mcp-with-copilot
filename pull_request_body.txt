@@ -1,0 +1,3 @@
+chore(docs): update README and add ALEMBIC_README.md
+
+Adds DB migration guidance and initial documentation updates to reflect DB persistence in `src/README.md`.
