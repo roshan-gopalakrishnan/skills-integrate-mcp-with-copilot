@@ -1,0 +1,1 @@
+This PR updates the docs to reflect DB-backed storage and provides guidance for using Alembic for migrations. It also adds `alembic` and `pytest` to `requirements.txt` for developer workflows.

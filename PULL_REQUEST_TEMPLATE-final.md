@@ -1,0 +1,1 @@
+This PR updates the docs to reflect DB persistence and provides a simple guide for setting up Alembic migrations as a follow up to the SQLAlchemy implementation (PR #17).

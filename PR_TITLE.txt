@@ -1,0 +1,5 @@
+chore: document DB persistence and migration guidance
+
+This PR updates documentation and adds reference steps for Alembic migrations and local development testing with pytest.
+
+PR: choreography to keep docs up to date with database changes from PR #17.

@@ -1,0 +1,1 @@
+This PR documents and guides DB persistence and migration steps, complements earlier SQLAlchemy implementation, and adds development dependencies for migrations and test utilities.

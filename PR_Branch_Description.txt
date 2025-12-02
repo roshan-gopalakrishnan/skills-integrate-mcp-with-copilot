@@ -1,0 +1,11 @@
+This PR updates the docs to reflect the DB-backed storage and provides steps to set up Alembic migrations and local testing with pytest. It complements PR #17 which added SQLAlchemy persistence.
+
+Files changed:
+- `src/README.md` — documents DB-backed storage and run instructions
+- `ALEMBIC_README.md` — instructions to set up Alembic and run migrations locally
+- `CHANGES.md` — summarized changes
+- `requirements.txt` — adds `alembic` and `pytest` to dev deps
+
+Follow-up:
+- Optionally add real Alembic directory and migrations and add a `make migration` helper
+

@@ -1,0 +1,3 @@
+chore(docs): document DB persistence and migration guidance
+
+This PR updates the `src/README.md` to reflect DB persistence and adds Alembic usage notes and a CHANGES file. It also adds Alembic and pytest to requirements for developer workflows.
