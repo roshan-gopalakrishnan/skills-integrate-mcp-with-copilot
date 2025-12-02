@@ -1,0 +1,1 @@
+This PR improves documentation and adds guidance to set up migrations for the DB-backed storage introduced earlier (PR #17).
